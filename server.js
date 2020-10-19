@@ -27,6 +27,6 @@ app.get('/about', function(req,res) {
     res.render('about');
 })
 
-app.listen(3000,() => {
+app.listen(port,() => {
     console.log(`escuchando en el puerto ${port}`);
 });
